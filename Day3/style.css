@@ -14,14 +14,15 @@ body {
 }
 
 
-.container{
-    background-color: #fafafa;
-    transform-origin: top left;
-    transition: transform 0.5s linear;
-    width: 100vw;
-    min-height: 100vh;
-    padding: 50px;
+.container {
+  background-color: #fafafa;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 50px;
 }
+
 
 .container.show-nav{
     transform: rotate(-20deg)
@@ -44,18 +45,21 @@ body {
 
 }
 
+.container.show-nav .circle{
+    transform: rotate(-70deg);
+}
+
 
 .circle button {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 100px;
-    background: transparent;
-    border: 0;
-    font-size: 26px;
-    color: #fff;
-
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+  font-size: 26px;
+  color: #fff;
 }
 
 .circle button:focus {
@@ -67,10 +71,10 @@ body {
 
 }
 
-.circle button#close{
-    top: 60%;
-    transform: rotate(90deg);
-    transform-origin: top left;
+.circle button#close {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
 }
 
 .container.show-nav + nav li{

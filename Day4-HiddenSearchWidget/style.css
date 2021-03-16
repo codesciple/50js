@@ -31,7 +31,7 @@ body {
     transition: width 0.3s ease;
   }
 
-.btn{
+  .btn {
     background-color: #fff;
     border: 0;
     cursor: pointer;
@@ -41,20 +41,19 @@ body {
     left: 0;
     height: 50px;
     width: 50px;
-    transition: width 0.3s ease;
-}
+    transition: transform 0.3s ease;
+  }
 
-.btn:focus, .input:focus{
+  .btn:focus,
+  .input:focus {
     outline: none;
-}
-
-.search.active .input{
+  }
+  
+  .search.active .input {
     width: 200px;
-}
-
-.search.active .btn{
+  }
+  
+  .search.active .btn {
     transform: translateX(198px);
-}
-
-
+  }
 

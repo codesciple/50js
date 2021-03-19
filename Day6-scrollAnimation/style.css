@@ -6,6 +6,7 @@
 }
 
 body {
+    background-color: hsl(155, 100%, 87%);
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -13,4 +14,21 @@ body {
     justify-content: center;
     height: 100vh;
     overflow: 0;
+}
+
+h1{
+    margin: 10px;
+}
+
+.box{
+    background-color: rgb(41, 66, 41);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px ;
 }
